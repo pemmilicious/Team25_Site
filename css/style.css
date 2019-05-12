@@ -5,6 +5,9 @@ body{
     padding: 0;
     margin: 0;
     background-color: #f4f4f4;
+    background: url(../img/aroma-aromatic-beans-531754.jpg) no-repeat;
+    background-size: 120%;
+    background-position-x: 40%;
 }
 
 ul{
@@ -29,11 +32,10 @@ header{
     min-height: 70px;
     border-bottom: #fff53f 2px solid;
     padding-bottom: 10px;
-    margin-bottom:25px; 
 }
 header nav{
     margin:auto;
-    width: 70%;
+    width: 800px;;
     text-align: center;
     margin-top: 10px;
 }
@@ -81,4 +83,49 @@ header img{
     margin: 0;
     position:no-repeat;
     height: 150px;
+}
+
+
+/* Sections */
+#showcase{
+    color: #ffffff;
+    background-size: 70%;
+    padding-top:30px;
+    text-align: center;
+}
+#info{
+    font-size: 16px;
+    color: #ffffff;
+    background-size: 70%;
+    padding-top:30px;
+    text-align: center;
+}
+
+#info h3{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#info p{
+    font-size: 16px;
+}
+
+#poster{
+    margin: auto;
+    width: 80%;
+    background-color: #e0e0e0;
+    margin-top: 20px;
+}
+
+#poster .box{
+    float:left;
+    width: 30%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#poster .box img{
+    height: 80%;
+    width: 80%;
 }
