@@ -113,19 +113,21 @@ header img{
 #poster{
     margin: auto;
     width: 80%;
-    background-color: #e0e0e0;
+    background-color: rgba(229, 229, 229,0.8);
     margin-top: 20px;
+    border-radius: 20px;
 }
 
 #poster .box{
     float:left;
     width: 30%;
-    padding-top: 30px;
-    padding-bottom: 30px;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #poster .box img{
-    height: 80%;
-    width: 80%;
+    opacity: 1;
+    height: 90%;
+    width: 90%;
 }
